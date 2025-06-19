@@ -1,0 +1,151 @@
+{
+    "title": "魔果云课 - 打造新一代智能网课平台",
+    "description": "网课系统文档及文章分享",
+    "author": "moguo",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "fontsettings@^2.0.0",
+        "-sharing",
+        "sharing-plus@^0.0.2",
+        "-highlight",
+        "prism@^2.1.0",
+        "prism-themes@^0.0.2",
+        "-lunr",
+        "-search",
+        "advanced-emoji@^0.2.1",
+        "tbfed-pagefooter@^0.0.1",
+        "icp",
+        "versions-select@^0.1.1",
+        "terminal@^0.3.2",
+        "code@^0.1.0",
+        "splitter@^0.0.8",
+        "favicon-absolute",
+        "github-tables@^0.0.2",
+        "canonical-link@^2.0.3",
+        "auto-scroll-table@^0.0.5",
+
+        "baidu-statistics",
+        "ga4@^1.0.1",
+        "logo"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © moguo.com 2019-2025",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "icp": {
+            "label": "",
+            "number": "京ICP备2024068516号-3"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "favicon-absolute": {
+            "favicon": "/assets/images/favicon.ico",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        },
+
+        "versions": {
+            "type":"languages",
+            "options": [
+                {
+                    "value": "/zh-hans/",
+                    "text": "简体中文"
+                },
+                {
+                    "value": "/en/",
+                    "text": "English"
+                }
+            ]
+        },
+        "sharing": {
+           "douban": true,
+           "facebook": false,
+           "google": false,
+           "hatenaBookmark": false,
+           "instapaper": false,
+           "line": false,
+           "linkedin": false,
+           "messenger": false,
+           "pocket": false,
+           "qq": true,
+           "qzone": false,
+           "stumbleupon": false,
+           "twitter": false,
+           "viber": false,
+           "vk": false,
+           "weibo": true,
+           "whatsapp": false,
+           "all": [
+               "facebook", "google", "twitter",
+               "weibo", "instapaper", "linkedin",
+               "pocket", "stumbleupon", "qq", "qzone","douban","line","whatsapp"
+           ]
+       },
+        "intopic-toc": {
+            "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3",
+            "mode": "nested",
+            "maxDepth": 3,
+            "isCollapsed": false,
+            "isScrollspyActive": true,
+            "visible": true,
+            "label": "内容"
+        },
+        "language-picker": {
+            "grid-columns": 3
+        },
+        "canonical-link": {
+            "baseURL": "https://docs.moguoyunke.com"
+        },
+        "image-captions": {
+            "caption": "_CAPTION_"
+        },
+        "meta": {
+            "data": [
+                {
+                    "name": "keywords",
+                    "content": "魔果云课, 魔果云, moguoyunke, 教育直播, 教育平台, AI教育, 网师平台, 直播防盗, 直播防录屏, 网络大班课"
+                }
+            ]
+        },
+        "baidu": {
+            "token": "7b5aea99d78fe2b5bc9a921973211b8a"
+        },
+        "ga4": {
+            "tag": "G-3JHQTPTL6J"
+        },
+        "logo":{
+	        "logo": "assets/images/moguo-logo-color.png",
+            "logoStyle": "height: 35px;align:left;",
+            "title": "魔果云课的文档",
+            "url": "https://www.moguoyunke.com"
+	    }
+    }
+}
